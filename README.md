@@ -76,7 +76,7 @@ FaceMask-GAN/
 
 ## 🎥 Sample Output Video
 
-> 📽️ Located at `output/video.avi` — shows progress from epoch 1 to 200.
+> 📽️ Located at `output/generator-images.avi` — shows progress from epoch 1 to 200.
 
 ## 📌 Future Improvements
 
