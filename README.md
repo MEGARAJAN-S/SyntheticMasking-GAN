@@ -16,7 +16,7 @@ FaceMask-GAN/
 ├── output/
 │   ├── epoch_scores.png       # Epoch vs score graph
 │   ├── loss_graph.png         # Generator & Discriminator loss graph
-│   ├── video.avi              # Video combining output images
+│   ├── generator_images.avi              # Video combining output images
 │   └── output_images/         # Generated images at key training steps
 │       ├── epoch_001.png
 │       ├── epoch_010.png
