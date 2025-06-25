@@ -7,7 +7,7 @@ A deep learning project that uses **Generative Adversarial Networks (GANs)** to 
 This project explores the use of GANs to generate masked versions of facial images, which can be used for dataset augmentation or privacy-preserving applications. The generator learns to apply a synthetic face mask while the discriminator attempts to distinguish between real and generated masked images.
 
 ## 📂 Repository Structure
-
+```bash
 FaceMask-GAN/
 
 ├── gan.ipynb                  # Main training notebook
@@ -36,7 +36,7 @@ FaceMask-GAN/
 
 │       └── epoch_200.png
 
-
+```
 ## 📊 Results
 
 - Visualizations of output at key training epochs: **1, 10, 25, ..., 200**
