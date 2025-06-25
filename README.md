@@ -9,20 +9,20 @@ This project explores the use of GANs to generate masked versions of facial imag
 ## 📂 Repository Structure
 
 FaceMask-GAN/
-│
-├── gan.ipynb # Main training notebook
-├── models/ # Contains saved generator and discriminator models
-│ ├── generator.pth
-│ └── discriminator.pth
+├── gan.ipynb                  # Main training notebook
+├── saved_models/              # Saved models of the generator and discriminator
+│   ├── generator.pth
+│   └── discriminator.pth
 ├── output/
-│ ├── epoch_scores.png # Epoch vs Score graph
-│ ├── loss_graph.png # Generator & Discriminator loss graph
-│ ├── video.avi # Compiled video of outputs
-│ └── output_images/ # Generated images at various training epochs
-│ ├── epoch_001.png
-│ ├── epoch_010.png
-│ ├── ...
-│ └── epoch_200.png
+│   ├── epoch_scores.png       # Epoch vs score graph
+│   ├── loss_graph.png         # Generator & Discriminator loss graph
+│   ├── video.avi              # Video combining output images
+│   └── output_images/         # Generated images at key training steps
+│       ├── epoch_001.png
+│       ├── epoch_010.png
+│       ├── ...
+│       └── epoch_200.png
+
 
 ## 📊 Results
 
