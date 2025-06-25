@@ -9,6 +9,7 @@ This project explores the use of GANs to generate masked versions of facial imag
 ## 📂 Repository Structure
 
 FaceMask-GAN/
+
 ├── gan.ipynb                  # Main training notebook
 
 ├── saved_models/              # Saved models of the generator and discriminator
